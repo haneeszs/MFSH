@@ -1,0 +1,11 @@
+name : Automation
+on: 
+push : 
+branches : 
+  -master
+workflow_dispatch: 
+jobs : 
+job1: 
+runs-on: ubuntu-latest
+steps: 
+-name : Print hello world 
